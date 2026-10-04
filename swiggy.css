@@ -287,6 +287,9 @@ footer{
     #res-card{
         height: 250px;
     }
+    .flashcards{
+        margin-bottom: 0px;
+    }    
     #flash-img{
         height: 250px;
     }
