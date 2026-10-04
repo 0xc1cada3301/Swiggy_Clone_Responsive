@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+nav{
+    background-color: #FF5200;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 135px;
+}
+.nav-left{
+    display: flex;
+}
+.nav-left img{
+    width: 160px;
+    height: 50px;
+    cursor: pointer;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-right h2{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.app{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 20px 22px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #FF5200;
+    color: white;
+    cursor: pointer;
+}
+.signin{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.content{
+    background-color: #FF5200;
+    padding: 30px 135px;
+}
+.content h1{
+    padding:30px 200px 0px ;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.content div button{
+      padding: 0px 100px;
+}
+.search-bar{
+    display: flex;
+    gap: 30px;
+    padding: 20px 80px;
+}
+.search-bar input{
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+.bar1{
+    display: flex;
+    gap: 25px;
+    background-color: white;
+    padding: 20px 20px;
+    color: gray;
+    border-radius: 20px;
+}
+.map{
+    color: #FF5200;
+    font-size: 15px;
+}
+.bar2{
+    display: flex;
+    gap: 100px;
+    background-color: white;
+    padding: 20px 20px;
+    color: gray;
+    border-radius: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.cards img{
+    width: 340px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.cards img:hover{
+    transform: scale(1.01);
+}
+.blank{
+    background-color: white;
+    height: 15px;
+}
+.abs-1{
+    height: 480px;
+    position: absolute;
+    left: 0;
+    top: 80px;
+}
+.abs-2{
+    height: 480px;
+    position: absolute;
+    right: 0;
+    top: 90px;
+}
+.food{
+    margin-top: 120px;
+    padding: 30px 135px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.arrow{
+    display: flex;
+    gap: 20px;
+}
+.place{
+    background-color: rgb(197, 192, 192);
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    border-radius: 20px;
+}
+#left{
+    background-color: rgb(219, 211, 211);
+}
+.food h2{
+    margin-bottom: 60px;
+    font-weight: 900;
+}
+.food div img{
+    height: 100px;
+}
+.name img:hover{
+    transform: scale(1.01);
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+}
+.name p{
+    margin: 10px 0px;
+    font-size: 25px;
+    font-weight: 100;
+    color: rgb(118, 114, 114);
+}
+.food-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.mart{
+    margin-top: 30px;
+    padding: 20px 135px;
+}
+.mart-1{
+    display: flex;
+    justify-content: space-between;
+}
+.groceries img{
+    height: 100px;
+    background-color: rgb(244, 240, 240);
+    padding: 20px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.groceries img:hover{
+    transform: scale(1.01);
+}
+.groceries{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.groceries p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.restaurants{
+    margin-top: 30px;
+    padding: 20px 135px;
+}
+.flashcards{
+    margin-top: 40px;
+    /* width: 150px; */
+    height: 60vh;
+    display: flex;
+    gap: 10px;
+    justify-content:space-between;
+    margin-bottom: 80px;
+}
+.flashcards img{
+    border-style: none;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px gray;
+    cursor: pointer;
+}
+.foot-img img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.res-foot-img{
+    display: none;
+}
+footer{
+    background-color: #F0F0F5;
+    padding: 60px 135px;
+}
+.col img{
+    width: 160px;
+    height: 50px;
+    background-color: #FF5200;
+    border-radius: 29px;
+    margin-bottom: 30px;
+}
+.foot-main{
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.col h2{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.col p{
+    color: gray;
+}
+.col select{
+    background-color: #F0F0F5;
+    border-color: gray;
+    cursor: pointer;
+}
+.foot-blank{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    border: 1px solid black;
+}
+.foot-end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot-end h1{
+    font-size: 25px;
+}
+.foot-end img{
+    width: 200px;
+    cursor: pointer;
+}
+.foot-end img:hover{
+    transform: scale(1.05);
+}
+@media (max-width: 980px) {
+    .res-980{
+        display: none;
+    }
+}
+@media (max-width:900px) {
+    .res-900{
+        display: none;
+    }
+}
+#rest-left{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; */
+    display: none;
+}
+#rest-left img{
+    position: absolute;
+    left: 30%;
+}
+/* .icon{
+    font-size: 50px;
+    color: aliceblue;
+} */
+@media (max-width:840px) {
+    #Large-nav{
+        display: none;
+        padding: 20px;
+    }
+    #rest-left{
+        display: block;
+        justify-self: center;
+        background-color: #FF5200;
+    }
+    #rest-left img{
+        height: 70px;
+    }
+    .abs-1{
+        height: 350px;
+    }
+    .abs-2{
+        height: 350px;
+    }
+    #res-h1{
+        padding: 70px 0px;
+        font-size:40px ;
+    }
+    .search-bar{
+        padding: 0px;
+    }
+    .bar{
+        padding: 10px;
+        gap: 5px;
+    }
+    #res-card{
+        width: 200px;
+    }
+    .food{
+        padding: 30px 40px;
+    }
+    .mart{
+        padding: 30px 40px;
+    }
+    .restaurants{
+        padding: 30px 40px;
+    }
+    #flash-img{
+        height: 250px;
+        margin-bottom: 20px;
+    }
+     .flashcards{
+        margin-bottom: 0px;
+     }
+    .foot-bound{
+        padding: 30px 40px;
+    }
+    .foot-main{
+        gap: 40px;
+    }
+}
+@media (max-width:500px) {
+    .res-pad{
+        padding: 20px;
+    }
+    .abs-1{
+        height: 200px;
+    }
+    .abs-2{
+        height: 200px;
+    }
+    #res-h1{
+        padding: 70px 0px;
+        font-size:35px ;
+    }
+    .search-bar{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .bar{
+        padding: 20px 50px;
+    }
+    #res-card{
+        width: 120px;
+    }
+    .rm-f{
+        display: none;
+    }
+    .res-flash{
+        flex-direction: column;
+        align-items: center;
+    }
+    #flash-img{
+        height:;
+        width: 20vh;
+        overflow: hidden;
+    }
+    .foot-main{
+        flex-direction: column;
+        align-items: center;
+    }
+    .foot-end{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}
