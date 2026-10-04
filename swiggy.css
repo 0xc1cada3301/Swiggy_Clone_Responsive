@@ -288,7 +288,7 @@ footer{
         height: 250px;
     }
     #flash-img{
-        height: 45vh;
+        height: 250px;
     }
 }
 @media (max-width:900px) {
@@ -390,6 +390,7 @@ footer{
     }
     #res-card{
         width: 120px;
+        height: 100px;
     }
     .rm-f{
         display: none;
