@@ -280,9 +280,15 @@ footer{
 .foot-end img:hover{
     transform: scale(1.05);
 }
-@media (max-width: 980px) {
+@media (max-width: 985px) {
     .res-980{
         display: none;
+    }
+    #res-card{
+        height: 250px;
+    }
+    #flash-img{
+        height: 45vh;
     }
 }
 @media (max-width:900px) {
