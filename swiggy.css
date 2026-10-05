@@ -361,13 +361,14 @@ footer{
         margin-bottom: 20px;
     }
      .flashcards{
+        height: auto;         
         margin-bottom: 0px;
      }
     .foot-bound{
         padding: 30px 40px;
     }
     .foot-main{
-        gap: 40px;
+        gap: 60px;
     }
 }
 @media (max-width:500px) {
@@ -398,6 +399,9 @@ footer{
     .rm-f{
         display: none;
     }
+    .groceries img{
+        background-color: white;
+    }    
     .res-flash{
         flex-direction: column;
         align-items: center;
